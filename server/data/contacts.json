@@ -1,0 +1,17 @@
+[
+  {
+    "name": "something",
+    "email": "sonchai@gmail.com",
+    "phone": "1234567890",
+    "subject": "/7d'ko",
+    "createdAt": "2026-06-03T04:14:45.102Z"
+  },
+  {
+    "name": "สมชาย",
+    "email": "Somchai@gmail.com",
+    "phone": "0924658723",
+    "subject": "ขอเอกสาร",
+    "message": "อยากได้เอกสารสำคัญ 2 อย่าง\n1. ใบเกรด\n2. transcript",
+    "createdAt": "2026-06-03T04:27:37.358Z"
+  }
+]
