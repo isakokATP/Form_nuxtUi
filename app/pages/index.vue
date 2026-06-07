@@ -124,7 +124,6 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
   <div class="flex items-center justify-center min-h-screen py-10 px-4 sm:px-6 lg:px-8">
     <UPageSection title="Contact Us" description="กรอกข้อมูลเพื่อส่งข้อความ">
       <UForm :schema="schema" :state="state" @submit="onSubmit" class="max-w-3xl w-full">
-        <!-- Name Row -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
           <UFormField label="ชื่อจริง" name="firstName">
             <UInput v-model="state.firstName" placeholder="ชื่อจริงของคุณ" />
@@ -135,7 +134,6 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
           </UFormField>
         </div>
 
-        <!-- Email & Phone -->
         <UFormField label="อีเมล" name="email" class="mb-5">
           <UInput v-model="state.email" type="email" placeholder="you@example.com" size="lg" />
         </UFormField>
